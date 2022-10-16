@@ -21,7 +21,7 @@ function Home() {
       options
     );
     const data = await response.json();
-    console.log(data.tracks.items);
+    // console.log(data.tracks.items);
     setTracks(data.tracks.items);
   };
   // https://open.spotify.com/track/5F4OfeowSReF93KcH2eUcG?si=22a1f21be5734959
